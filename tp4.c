@@ -13,7 +13,7 @@ void inverte(char s[]){
 }
 
 int main(){
-    char s[100], ;
+    char s[100];
     while(scanf("%s",s)!='EOF'){
         invrter(s);
     }
