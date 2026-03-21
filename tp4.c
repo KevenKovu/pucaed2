@@ -13,7 +13,7 @@ void inverter(char s[]){
     printf("%s",espelho);
 }
 
-int tp4(){
+int main(){
     char s[100];
     while(scanf("%s",s)!= EOF ){
         inverter(s); 
