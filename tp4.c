@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdio.h>
-void inverte(char s[]){
-    int tam;
+void inverter(char s[]){
+    int tam=0;
     while(s[tam]!='\0'){
         tam++;
     }
@@ -9,13 +9,14 @@ void inverte(char s[]){
     for (int i=0;i<tam;i++){
         espelho[i]=s[tam-1-i];
     }
-    print("%s \n",espelho);
+    espelho[tam] = '\0';
+    printf("%s",espelho);
 }
 
 int main(){
     char s[100];
-    while(scanf("%s",s)!='EOF'){
-        invrter(s);
+    while(scanf("%s",s)!= EOF ){
+        inverter(s); 
     }
     return 0;
     
