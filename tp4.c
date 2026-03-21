@@ -15,7 +15,7 @@ void inverter(char s[]){
 
 int main(){
     char s[100];
-    while(scanf("%s",s)!= EOF ){
+    while(scanf("%s",s)!= 'FIM' ){
         inverter(s); 
     }
     return 0;
